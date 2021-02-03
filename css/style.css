@@ -3,6 +3,10 @@
     /*height: 200px;*/
 }
 
+.debug_y {
+    background-color: yellow;
+}
+
 /*header*/
 .head_top {
     width: 100%;
