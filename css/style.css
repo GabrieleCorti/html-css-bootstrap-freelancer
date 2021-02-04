@@ -43,6 +43,10 @@ section[class*=section-] {
     font-weight: bold;
 }
 
+.pad li:hover {
+    color: #1ABC9C;
+}
+
 .nav_link {
     color: white;
     text-transform: uppercase;
