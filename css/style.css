@@ -148,7 +148,39 @@ h2 {
 }
 
 /*section-3*/
+.camp_name {
+    display: none;
+}
 
+.form_wrap {
+    padding: 24px 0 15px 0;
+    border-bottom: 1px solid #E9ECEF;
+    border-radius: 0;
+}
+
+::placeholder {
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+.input_custom {
+    border: none;
+    box-shadow: none;
+    padding-left: 0;
+}
+textarea {
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.sub_btn {
+    padding: 16px 18px;
+    border: none;
+    background-color: #1ABC9C;
+    color: white;
+    font-size: 20px;
+}
 /*footer*/
 .foot_bot {
     background-color: #1A252F;
