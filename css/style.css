@@ -16,6 +16,10 @@ body {
 .inliner {
     display: inline-block;
 }
+
+section[class*=section-] {
+    padding: 48px 0;
+}
 /*header*/
 .head_top, .foot_top, .foot_bot {
     width: 100%;
@@ -81,7 +85,7 @@ body {
     width: 100%;
 }
 
-.section-1 h2 {
+h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 45px;
@@ -119,10 +123,30 @@ body {
     opacity: 0.75;
 }
 /*section-2*/
+.fa-download {
+    padding-right: 7px;
+}
+
+.download_btn {
+    padding: 16px 18px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s ease ;
+}
+
+.download_btn:hover {
+    background-color: white;
+    color: #2c3e50;
+}
 /*about*/
 .about_info {
     max-width: 500px;
     margin: auto;
+}
+
+.section-2 .row div:last-child {
+    margin-top: 24px;
 }
 /*section-3*/
 
