@@ -43,7 +43,7 @@ section[class*=section-] {
     font-weight: bold;
 }
 
-.pad li:hover {
+.pad a:hover {
     color: #1ABC9C;
 }
 
