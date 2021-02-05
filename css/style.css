@@ -21,6 +21,11 @@ section[class*=section-] {
     padding: 48px 0;
 }
 
+header ul {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
 .ham_menu {
     padding: 13px;
     border-radius: 8px;
@@ -45,6 +50,7 @@ section[class*=section-] {
     font-size: 25px;
     margin: 0 0;
     vertical-align: middle;
+    white-space: nowrap;
 }
 
 .pad li {
@@ -95,14 +101,27 @@ section[class*=section-] {
     width: 100%;
     margin: 20px 0 24px 0;
 }
+/*potevo fare un before però avrei dovuto dare lo pseudeo elemento al contenirore della stella non alla stekka!!!*/
+.custom_divider::before, .custom_divider::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    max-width: 98px;
+    height: 4px;
+    border-radius: 16px;
+    background-color: currentColor;
+    vertical-align: middle;
+}
 
-.aside_line {
-    min-width: 98px;
+
+/*.aside_line {
+    width: 100%;
+    max-width: 98px;
     height: 4px;
     border-radius: 16px;
     background-color: white;
     vertical-align: middle;
-}
+}*/
 
 .fa-star {
     margin: 0 16px;
